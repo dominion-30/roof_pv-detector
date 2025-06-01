@@ -1,0 +1,13 @@
+train: /home/abiol/pv_detector/dataset/train/images
+val: /home/abiol/pv_detector/dataset/valid/images
+test: /home/abiol/pv_detector/dataset/test/images
+
+nc: 1
+names: ['roof_pv']
+
+roboflow:
+  workspace: solar-panel-detection-bexri
+  project: solar-pv-detector
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/solar-panel-detection-bexri/solar-pv-detector/dataset/2
